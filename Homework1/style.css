@@ -1,0 +1,43 @@
+/************************ Tüm Sayfalar İçin ************************/
+body{
+    text-align: center;
+}
+
+h1, h2 {
+    color:#7D6E83;
+}
+
+.main{
+    list-style: none;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.main li{
+    display: inline-block;
+    padding-right: 30px;
+}
+
+/***************************** Ana Sayfa ****************************/
+.instrumentsList{
+    display: inline-block; 
+    text-align: left;
+}
+
+/****************************** Ürünler *****************************/
+.products{
+    display: inline-block;
+    justify-content: center;
+    flex-direction: column;
+}
+
+img{
+    width: 300px;
+    height: 400px;
+}
+
+/***************************** Hakkımızda ****************************/
+.aboutUs{
+    color: brown;
+}
