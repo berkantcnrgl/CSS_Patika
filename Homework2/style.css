@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    text-align: center;
+}
+
+.container{
+    display: block;
+    justify-content: center;
+}
+
+.content{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.searchBar{
+    display: block;
+    background-color: #EEEEEE;
+}
+
+.blueBox{
+    justify-content: center;
+    background-color: rgb(112, 204, 194);
+    width: 32%;
+    height: 80px;
+    float: left;
+    padding: 8px;
+    margin: 1px;
+}
+
